@@ -1,0 +1,23 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    /* 左右分佈 */
+    align-items: flex-start;
+    /* 垂直對齊到頂部 */
+    width: 80%;
+    /* 容器寬度佔 80% */
+    max-width: 1200px;
+    /* 最大寬度 */
+    margin: 50px auto;
+    /* 自動左右居中，並與頂部保持 50px 距離 */
+    height: 600px;
+    /* 固定高度 */
+    border-radius: 12px;
+    /* 圓角邊框 */
+    background-color: #f9f9f9;
+    /* 淺灰色背景 */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    /* 輕微陰影 */
+    padding: 30px;
+    overflow: hidden;
+}
